@@ -74,7 +74,7 @@
 #ifndef SERVO2_PIN
   #define SERVO2_PIN                           5
 #endif
-#ifndef SERVO3_PIN
+#ifndef SERVO3_PIN // BL Touch
   #define SERVO3_PIN                           4
 #endif
 
@@ -867,6 +867,8 @@
         //#define BTN_EN2              EXP1_09_PIN
         //#define BTN_ENC              EXP2_08_PIN
       #endif
+
+    #endif
   #endif // IS_NEWPANEL
 
 #endif // HAS_WIRED_LCD
