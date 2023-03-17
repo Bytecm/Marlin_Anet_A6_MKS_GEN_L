@@ -536,7 +536,7 @@
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  *
  */
-#define TEMP_SENSOR_0 11
+#define TEMP_SENSOR_0 5
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
@@ -544,7 +544,7 @@
 #define TEMP_SENSOR_5 0
 #define TEMP_SENSOR_6 0
 #define TEMP_SENSOR_7 0
-#define TEMP_SENSOR_BED 11
+#define TEMP_SENSOR_BED 5
 #define TEMP_SENSOR_PROBE 0
 #define TEMP_SENSOR_CHAMBER 0
 #define TEMP_SENSOR_COOLER 0
@@ -667,9 +667,9 @@
     #define DEFAULT_Ki_LIST {   1.02,   1.02 }
     #define DEFAULT_Kd_LIST {  69.29,  69.29 }
   #else
-    #define DEFAULT_Kp  16.83
-    #define DEFAULT_Ki   1.02
-    #define DEFAULT_Kd  69.29
+    #define DEFAULT_Kp  22.54
+    #define DEFAULT_Ki   1.51
+    #define DEFAULT_Kd  84.00
   #endif
 #endif
 
@@ -2541,7 +2541,7 @@
 // Add individual axis homing items (Home X, Home Y, and Home Z) to the LCD menu.
 //
 #define INDIVIDUAL_AXIS_HOMING_MENU
-//#define INDIVIDUAL_AXIS_HOMING_SUBMENU
+#define INDIVIDUAL_AXIS_HOMING_SUBMENU
 
 //
 // SPEAKER/BUZZER
